@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "erection year",
+  "version": "1.0",
+  "description": "Replaces instances of 'election' with 'erection'",
+  "permissions": ["scripting"],
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
